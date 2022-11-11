@@ -1,7 +1,11 @@
-const gender = "МУж";
-if (gender.toLocaleLowerCase()=== "муж"){
-    console.log(" налево");
+let age = null;
+
+if (!isNaN(age)) {
+    console.log(" Выпей пивка");
 }
-else{
-    console.log(" направо");
+else if (age<21){
+    console.log("Иди домой");
+}
+else {
+    console.log("Очко")
 }
