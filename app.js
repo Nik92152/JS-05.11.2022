@@ -37,6 +37,6 @@ const ln=10;
 let message='';
 while(i<ln){
     i++;
-    message +=`${i},`;
+    message +=`${i} ${i!==ln ? ",": ""}`;
 }
 console.log(message);
