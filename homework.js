@@ -46,5 +46,5 @@ for (let y = a; y<=b;y++){
     }
     counteriter++;
 }
-console.log("Количество вискокосных годов:",counterYears, "Количество итераций:",counteriter);
+console.log("Количество вискокосных годов: ",counterYears, "Количество итераций:",counteriter);
        
